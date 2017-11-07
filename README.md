@@ -66,6 +66,8 @@ npm run build
 ![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ME.jpg)
 ![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ME.gif)
 <br/>
+<br/>
+<br/>
 
 ## 遇到的部分问题及总结
 
