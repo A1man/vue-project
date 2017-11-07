@@ -116,10 +116,9 @@ export default {
     this.$store.dispatch('getOnelist','this.nowDate').then(() => {
     //获取首页数据  
       setTimeout(() => {
-        this.refresh();
         this.$store.commit('changeFlag',['loading',false]);
       },500)
-      //在获取到首页数据之后延迟500ms初始化scroll,loading状态消失
+      //在获取到首页数据之后延迟500ms，loading状态消失
     });
   },
   computed: mapState({

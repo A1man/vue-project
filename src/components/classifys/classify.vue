@@ -168,11 +168,8 @@ export default {
 .classify .v-spinner {
 	top: .9rem;
 }
-.classify .v-spinner .v-ring0 {
+.classify .v-spinner .v-ring1 {
 	top: 3.8rem !important;
-}
-.classify .v-spinner .text {
-	top: 5.3rem;
 }
 .classify h1{
 	width: 100%;

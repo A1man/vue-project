@@ -1,18 +1,15 @@
 # one-project
 
 > A Vue.js project
-> 仿one一个移动端项目
 
-## Build Setup
+## 项目运行
 
 ``` bash
-# install dependencies
+# 更新依赖包
 npm install
 
-# serve with hot reload at localhost:8080
+# 本地运行 at localhost:8080
 npm run dev
 
-# build for production with minification
+# 打包
 npm run build
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

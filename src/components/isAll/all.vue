@@ -114,10 +114,9 @@ export default {
  			//请求问答专题数据
     }).then(() => {
     	setTimeout(() => {
-        this.$refs.allScroll.refresh();
         this.$store.commit('changeFlag',['loading',false]);
       },500)
-      //在获取到all页面所有数据之后延迟500ms初始化scroll,loading状态消失
+      //在获取到all页面所有数据之后延迟500ms,loading状态消失
     })
 	},
 	computed: mapState({
@@ -361,11 +360,8 @@ export default {
 #all .searchContent .v-spinner {
   top: .79rem;
 }
-.searchContent .v-spinner .v-ring0 {
-  top: 2.7rem !important  ;
-}
-.searchContent .v-spinner .text {
-  top: 4.2rem;
+.searchContent .v-spinner .v-ring1 {
+  top: 2.9rem !important;
 }
 .searchContent .noMsg {
   background: url('../../assets/img/searchBg.png') no-repeat;
