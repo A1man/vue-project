@@ -3,9 +3,13 @@
 基于vue2+vuex制作的仿ONE一个app移动端项目。
 
 
+
+
 ## 技术栈
 
 vue2 + vuex + vue-router + Mint UI + fetch + better-scroll + localstorage
+
+
 
 
 ## 项目运行
@@ -21,6 +25,8 @@ npm run dev
 npm run build
 
 ```
+
+
 
 
 ## 目标功能
@@ -40,6 +46,8 @@ npm run build
 - ME页面收藏列表
 - ME页面关注列表
 - ME页面登录退出
+
+
 
 
 ## 部分截图
@@ -65,6 +73,8 @@ npm run build
 
 ![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ME.jpg)
 ![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ME.gif)
+
+
 
 
 ## 遇到的部分问题及总结
