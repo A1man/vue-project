@@ -2,10 +2,12 @@
 
 基于vue2+vuex制作的仿ONE一个app移动端项目。
 <br/>
+<br/>
 
 ## 技术栈
 
 vue2 + vuex + vue-router + Mint UI + fetch + better-scroll + localstorage
+<br/>
 <br/>
 
 ## 项目运行
@@ -40,6 +42,7 @@ npm run build
 - ME页面收藏列表
 - ME页面关注列表
 - ME页面登录退出
+<br/>
 <br/>
 
 ## 部分截图
