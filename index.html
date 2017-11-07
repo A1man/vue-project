@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <title>「ONE · 一个」</title>
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>
+<script type="text/javascript">
+(function(){
+	var meta = document.createElement("meta"); //创建一个meta标签，并给他起个名字加meta
+	var scale = 1/window.devicePixelRatio;
+	meta.name = "viewport";// 给meta的name属性设置为"viewport"
+	meta.content = "initial-scale="+scale+",minimum-scale="+scale+",maximum-scale="+scale;
+	document.head.appendChild(meta);// 在head中添加一个元素，这个元素是
+})();	
+	
+(function(){
+  var html = document.documentElement;
+  var width = html.clientWidth;
+  html.style.fontSize = width/6.4 + "px";
+})(); 	
+
+</script>
+
+<style type="text/css">
+body,
+html {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+body {
+	margin: 0;
+	font-family: "PingFangSC-Light",sans-serif;
+	background: #eee;
+}
+p {
+	margin: 0;
+}	
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	font-weight: normal;
+}
+img {
+	border: none;
+	display: block;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+button {
+	padding: 0;
+	border: none;
+	outline: none;
+}
+input {
+	padding: 0;
+	border: none;
+	outline: none;
+}
+input[type="search"] {
+	-webkit-appearance:none;
+} 
+input::-webkit-search-cancel-button {
+	display: none;
+}
+u {
+	text-decoration: none;
+}
+strong {
+	font-weight: normal;
+}
+textarea {
+	border: none;
+	padding: 0;
+	outline: none;
+}
+</style>
+
+

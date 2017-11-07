@@ -1,0 +1,215 @@
+.authorAll .authorMsg {
+  background: #fff;
+  position: relative;
+  padding: 1.92rem .96rem .24rem;
+  margin-bottom: .1rem;
+}
+.authorAll .authorMsg span {
+  width: .87rem;
+  height: .88rem;
+  position: absolute;
+  top: .38rem;
+  left: .08rem;
+  background: url("../img/sprite.png") 0 -7.1rem no-repeat;
+  background-size: 10rem 15rem;
+}
+.authorAll .authorMsg img {
+  width: 1.04rem;
+  height: 1.04rem;
+  position: absolute;
+  top: .62rem;
+  left: 2.68rem;
+  border-radius: 50%;
+}
+.authorAll .authorMsg h1 {
+  height: .3rem;
+  font-size: .3rem;
+  line-height: 1;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+.authorAll .authorMsg h2 {
+  height: .76rem;
+  font-size: .22rem;
+  line-height: .76rem;
+  color: #999;
+  text-align: center;
+}
+.authorAll .authorMsg p {
+  font-size: .22rem;
+  line-height: .26rem;
+  color: #4a4a4a;
+  text-align: center;
+  margin-bottom: 1.1rem;
+}
+.authorAll .authorMsg button {
+  position: absolute;
+  bottom: .61rem;
+  left: 2.72rem;
+  width: .96rem;
+  height: .6rem;
+  border: .02rem solid #aeaeae;
+  border-radius: 0.05rem;
+  font-size: .22rem;
+  line-height: .56rem;
+  color: #333;
+  background: #fff;
+}
+.authorMsg button.active {
+  background: #d9d9d9;
+  border: none;
+  line-height: .6rem;
+}
+.authorAll .authorMsg h3 {
+  height: .2rem;
+  font-size: .2rem;
+  line-height: 1;
+  color: #d7d7d7;
+  text-align: center;
+}  
+.authorAll .text,
+.m-content .text {
+  background: #fff;
+  padding: 0 .4rem 0;
+  margin-bottom: .1rem;
+}  
+.authorAll .text h2,
+.m-content .text h2 {
+  height: .74rem;
+  font-size: .24rem;
+  line-height: .74rem;
+  color: #a6a6a6;
+  text-align: center;
+}
+.authorAll .text h3,
+.m-content .text h3 {
+  font-size: .38rem;
+  line-height: .68rem;
+  color: #333;
+}
+.authorAll .text h4,
+.m-content .text h4 {
+  display: block;
+  height: .72rem;
+  font-size: .26rem;
+  line-height: .72rem;
+  color: #808080;
+}
+.authorAll .pic img,
+.m-content .pic img {
+  width: 100%;
+  height: 3.42rem;
+}
+.authorAll .musicPic,
+.m-content .musicPic {
+  width: 100%;
+  height: 3.42rem;
+  position: relative;
+}
+.authorAll .musicPic .musicCover,
+.m-content .musicPic .musicCover {
+  width: 3.4rem;
+  height: 3.42rem;
+  position: absolute;
+  top: 0;
+  left: 1.14rem;
+  border-radius: 50%;
+}
+.musicCover img {
+  width: 3.4rem;
+  height: 3.42rem;
+  border-radius: 50%;
+}
+.authorAll .musicPic .play,
+.m-content .musicPic .play {
+  width: .8rem;
+  height: .8rem;
+  position: absolute;
+  top: 1.3rem;
+  left: 2.44rem;
+  background: rgba(0,0,0,.7) url("../img/sprite.png") -3.13rem -1.64rem no-repeat;
+  background-size: 10rem 15rem;
+  z-index: 666;
+  border-radius: 50%;
+}
+.authorAll .play.stop,
+.musicPic .play.stop {
+  background-position: -2.13rem -1.64rem !important;
+}
+.authorAll .musicPic .icon,
+.m-content .musicPic .icon {
+  width: .4rem;
+  height: .4rem;
+  position: absolute;
+  left: 0;
+  bottom: .2rem;
+  background: url("../img/sprite.png") 0 -9.25rem no-repeat;
+  background-size: 10rem 15rem;
+}
+.authorAll .text p,
+.m-content .text p {
+  font-size: .26rem;
+  line-height: .56rem;
+  margin: .12rem 0 .4rem;
+  color: #666;
+}
+.authorAll nav ,
+.m-content nav {
+  overflow: hidden;
+}
+.authorAll nav span,
+.m-content nav span {
+  float: left;
+  height: .8rem;
+  color: #a6a6a6;
+}
+.authorAll nav span:nth-of-type(1),
+.m-content nav span:nth-of-type(1) {
+  width: 4rem;
+  font-size: .24rem;
+  line-height: .8rem;
+}
+.authorAll nav span:nth-of-type(2),
+.m-content nav span:nth-of-type(2) {
+  width: .78rem;
+  background: url("../img/sprite.png") 0 -.84rem no-repeat;
+  background-size: 10rem 15rem;
+  font-size: .18rem;
+  line-height: 1;
+  color: #a6a6a6;
+  padding: .16rem 0 0 .32rem;
+  box-sizing: border-box;
+}
+.authorAll nav span:nth-of-type(2).active,
+.m-content nav span:nth-of-type(2).active {
+  background: url("../img/sprite.png") -4.48rem -7.98rem no-repeat;
+  background-size: 10rem 15rem;
+}
+.authorAll nav span:nth-of-type(3),
+.m-content nav span:nth-of-type(3) {
+  width: .82rem;
+  background: url("../img/sprite.png") 0 -1.66rem no-repeat;
+  background-size: 10rem 15rem;
+}
+.authorAll nav span:nth-of-type(3).active,
+.m-content nav span:nth-of-type(3).active {
+  background: url("../img/sprite.png") -5.48rem -7.98rem no-repeat;
+  background-size: 10rem 15rem;
+}
+.m-content .prev {
+  height: 3.79rem;
+}
+.m-content .prev img {
+  width: 100%;
+  height: 3.79rem;
+}
+.collectHint {
+  border-radius: .1rem;
+  background: rgba(0,0,0,.6);
+}
+.collectHint .mint-toast-text {
+  font-size: .26rem;
+  line-height: .94rem;
+  margin: 0 .3rem;
+}
