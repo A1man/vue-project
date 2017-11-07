@@ -46,23 +46,25 @@ npm run build
 
 ### ONE首页
 
-<img src="https://github.com/A1man/vue-project/tree/master/src/assets/effect/ONE.jpg" width="320" height="568"/>
-<img src="https://github.com/A1man/vue-project/tree/master/src/assets/effect/ONE.gif" width="320" height="568"/>
-
+![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ONE.jpg)
+![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ONE.gif)
 
 ### All页面
 
-<img src="https://github.com/A1man/vue-project/tree/master/src/assets/effect/ALL.jpg" width="320" height="568"/> <img src="https://github.com/A1man/vue-project/tree/master/src/assets/effect/ALL.gif" width="320" height="568"/>
+![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ALL.jpg)
+![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ALL.gif)
 
 
 
 ### 搜索页面
 
-<img src="https://github.com/A1man/vue-project/tree/master/src/assets/effect/search.jpg" width="320" height="568"/> <img src="https://github.com/A1man/vue-project/tree/master/src/assets/effect/search.gif" width="320" height="568"/>
+![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/search.jpg)
+![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/search.gif)
 
 ### ME页面
 
-<img src="https://github.com/A1man/vue-project/tree/master/src/assets/effect/ME.jpg" width="320" height="568"/> <img src="https://github.com/A1man/vue-project/tree/master/src/assets/effect/ME.gif" width="320" height="568"/>
+![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ME.jpg)
+![Image](https://github.com/A1man/vue-project/blob/master/src/assets/effect/ME.gif)
 
 
 ## 总结
