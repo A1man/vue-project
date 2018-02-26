@@ -103,9 +103,6 @@ export default {
     MFooter,
     scroll
   },
-  created() {
-
-  },
   mounted() {
     this.$store.commit('changeFlag',['index',true]);
     //改变state.flag中的index开关为了控制m-footer组件中的当前页图标active
